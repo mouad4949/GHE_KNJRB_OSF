@@ -29,13 +29,17 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.2</version>
                 <configuration>
+
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <mainClass>ma.fstt.Main</mainClass> <!-- Remplace par le nom de ta classe principale -->
                         </manifest>
+                        <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                     </archive>
+
                 </configuration>
+
             </plugin>
         </plugins>
     </build>
