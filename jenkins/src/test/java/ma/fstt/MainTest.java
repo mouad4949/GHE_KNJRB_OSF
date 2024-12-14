@@ -24,6 +24,6 @@ public class MainTest {
     public void div() {
         Main main = new Main();
         int result = main.div(2, 2);
-        assertEquals(1, result, "2 / 2 devrait être égal à 1");
+        assertEquals(1, result, "2 / 2 devrait être égale à 1");
     }
 }
