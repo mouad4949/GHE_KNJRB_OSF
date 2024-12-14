@@ -35,7 +35,7 @@
                             <addClasspath>true</addClasspath>
                             <mainClass>ma.fstt.Main</mainClass> <!-- Remplace par le nom de ta classe principale -->
                         </manifest>
-                        <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+
                     </archive>
 
                 </configuration>
