@@ -19,4 +19,11 @@ public class MainTest {
         int result = main.sub(2, 3);
         assertEquals(-1, result, "2 - 3 devrait être égal à -1");
     }
+
+    @Test
+    public void div() {
+        Main main = new Main();
+        int result = main.div(2, 2);
+        assertEquals(1, result, "2 / 2 devrait être égal à 1");
+    }
 }
