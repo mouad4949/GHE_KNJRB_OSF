@@ -12,4 +12,11 @@ public class MainTest {
         int result = main.additionner(2, 3);
         assertEquals(5, result, "2 + 3 devrait être égal à 5");
     }
+
+    @Test
+    public void sub() {
+        Main main = new Main();
+        int result = main.sub(2, 3);
+        assertEquals(-1, result, "2 - 3 devrait être égal à -1");
+    }
 }
