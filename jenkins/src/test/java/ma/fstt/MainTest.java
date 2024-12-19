@@ -17,7 +17,7 @@ public class MainTest {
     public void sub() {
         Main main = new Main();
         int result = main.sub(2, 3);
-        assertEquals(-1, result, "2 - 3 devrait être égal à -1");
+        assertEquals(-1, result, "2 - 3 devrait être égal à -1 sf");
     }
 
     @Test
