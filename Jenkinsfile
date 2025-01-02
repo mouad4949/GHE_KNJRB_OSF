@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                dir('jenkins') { // Assure-toi que c'est le bon répertoire
+                dir('jenkinss') { // Assure-toi que c'est le bon répertoire
                     sh 'mvn test'
                 }
             }
